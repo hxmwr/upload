@@ -1,7 +1,7 @@
 # upload
 A simple upload class of php.
 # usage
-Depends on a OO file object, like [this](https://github.com/brandonsavage/Upload/blob/master/src/Upload/FileInfo.php), or you can implement your own file class.
+Depends on a OO file object, like [Phalcon\Http\Request\File](https://olddocs.phalconphp.com/en/3.0.0/api/Phalcon_Http_Request_File.html) and [FileInfo](https://github.com/brandonsavage/Upload/blob/master/src/Upload/FileInfo.php), or you can implement your own file class.
 ```php
 $config = [
       'scene1' => [
